@@ -33,6 +33,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.14308053",
     "project.structure.side.proportion": "0.09132421",
+    "spring.configuration.checksum": "d41d8cd98f00b204e9800998ecf8427e",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,6 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678638736758</updated>
       <workItem from="1678638737820" duration="2315000" />
+      <workItem from="1678641556786" duration="33000" />
     </task>
     <servers />
   </component>
