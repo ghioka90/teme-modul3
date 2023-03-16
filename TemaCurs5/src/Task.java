@@ -2,6 +2,7 @@ import static java.lang.Thread.sleep;
 import java.util.Random;
 
 public class Task {
+   public Object run;
    Random rand = new Random();
    public String taskName;
    public int taskId = 0;
@@ -15,7 +16,7 @@ public class Task {
    }
 
    public void run() throws InterruptedException {
-      sleep(executionTime);
+      sleep(executionTime * 1000);
       System.out.println("SLEEP");
    }
 

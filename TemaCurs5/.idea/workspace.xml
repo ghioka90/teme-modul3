@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cfbac8b8-fe0d-4977-8713-b28d07342b9e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MvINWW9Vi06xLZDaYEAyh232fu" />
   <component name="ProjectViewState">
@@ -17,10 +23,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ghioc/IdeaProjects/teme-modul3/TemaCurs5/libs",
+    "last_opened_file_path": "C:/Users/ghioc/IdeaProjects/teme-modul3/TemaCurs6",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "d41d8cd98f00b204e9800998ecf8427e",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -29,6 +40,20 @@
       <recent name="C:\Users\ghioc\IdeaProjects\teme-modul3\TemaCurs5\src" />
       <recent name="C:\Users\ghioc\IdeaProjects\teme-modul3\TemaCurs5" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyApp" />
+      <module name="TemaCurs5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -39,6 +64,10 @@
       <option name="presentableId" value="Default" />
       <updated>1678641589909</updated>
       <workItem from="1678641591059" duration="136000" />
+      <workItem from="1678645516610" duration="62000" />
+      <workItem from="1678903319320" duration="61000" />
+      <workItem from="1678904294259" duration="293000" />
+      <workItem from="1678905446183" duration="574000" />
     </task>
     <servers />
   </component>

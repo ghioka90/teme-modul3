@@ -25,7 +25,7 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_directory_selection": "C:/Users/ghioc/IdeaProjects/teme-modul3/TemaCurs6/Sub2/src",
-    "last_opened_file_path": "C:/Users/ghioc/IdeaProjects/teme-modul3/TemaCurs6/Sub2/libs",
+    "last_opened_file_path": "C:/Users/ghioc/IdeaProjects/Devmind  Full Stack and Frameworks/Devmind-Full-Stack-and-Frameworks/Curs6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,9 +76,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="springapp.MyFirstSpringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springapp.MyFirstSpringApp" />
+      <module name="Sub1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MyFirstSpringAnnotationApp" />
+        <item itemvalue="Application.springapp.MyFirstSpringApp" />
         <item itemvalue="Application.MyFirstSpringApp" />
       </list>
     </recent_temporary>
@@ -93,6 +107,9 @@
       <updated>1678638736758</updated>
       <workItem from="1678638737820" duration="2315000" />
       <workItem from="1678641556786" duration="33000" />
+      <workItem from="1678903166975" duration="150000" />
+      <workItem from="1678904592063" duration="557000" />
+      <workItem from="1678906028453" duration="1329000" />
     </task>
     <servers />
   </component>
