@@ -18,25 +18,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_directory_selection": "C:/Users/ghioc/IdeaProjects/teme-modul3/TemaCurs6/Sub2/src",
-    "last_opened_file_path": "C:/Users/ghioc/IdeaProjects/Devmind  Full Stack and Frameworks/Devmind-Full-Stack-and-Frameworks/Curs6",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.14308053",
-    "project.structure.side.proportion": "0.09132421",
-    "spring.configuration.checksum": "d41d8cd98f00b204e9800998ecf8427e",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/ghioc/IdeaProjects/teme-modul3/TemaCurs6/Sub2/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ghioc/IdeaProjects/Devmind  Full Stack and Frameworks/Devmind-Full-Stack-and-Frameworks/Curs6&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.14308053&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.09132421&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ghioc\IdeaProjects\teme-modul3\TemaCurs6\Sub2\src" />
@@ -110,6 +110,7 @@
       <workItem from="1678903166975" duration="150000" />
       <workItem from="1678904592063" duration="557000" />
       <workItem from="1678906028453" duration="1329000" />
+      <workItem from="1680106258630" duration="2170000" />
     </task>
     <servers />
   </component>

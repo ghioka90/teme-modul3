@@ -1,0 +1,9 @@
+Autocar=org.springframework.stereotype.Component
+CarService=org.springframework.stereotype.Component
+CodCursuri.ServiceConfig=org.springframework.stereotype.Component
+CodCursuri.TeacherConfiguration=org.springframework.stereotype.Component
+CodCursuri.WisdomWordsServiceConfiguration=org.springframework.stereotype.Component
+CodTeme.TemaCurs3.src.animalConfiguration=org.springframework.stereotype.Component
+Masina=org.springframework.stereotype.Component
+Motocicleta=org.springframework.stereotype.Component
+Motor=org.springframework.stereotype.Component
