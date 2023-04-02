@@ -1,9 +1,17 @@
 package org.example;
 
-public class JavaTeacher implements ITeacher{
-    private WisdomWordsService wisdomService;
+import lombok.Getter;
+import lombok.Setter;
 
+
+public class JavaTeacher implements ITeacher{
+
+    private WisdomWordsService wisdomService;
+    @Getter
+    @Setter
     private int age;
+    @Getter
+    @Setter
     private String workPlace;
 
     public JavaTeacher(WisdomWordsService wisdomService){
@@ -21,19 +29,5 @@ public class JavaTeacher implements ITeacher{
         return wisdomService.getMessage();
     }
 
-    public int getAge() {
-        return age;
-    }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getWorkPlace() {
-        return workPlace;
-    }
-
-    public void setWorkPlace(String workPlace) {
-        this.workPlace = workPlace;
-    }
 }

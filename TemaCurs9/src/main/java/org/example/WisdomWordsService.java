@@ -1,13 +1,11 @@
 package org.example;
 
+import lombok.Getter;
+import lombok.Setter;
+
 public class WisdomWordsService {
+    @Getter
+    @Setter
      private String message = "Hard work pays off";
-     
-     public void setMessage(String message) {
-         this.message = message;
-     }
-     
-     public String getMessage() {
-         return message;
-     }
+
 }

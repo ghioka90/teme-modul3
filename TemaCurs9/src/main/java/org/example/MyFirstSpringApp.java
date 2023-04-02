@@ -1,13 +1,14 @@
 package org.example;
 
 
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MyFirstSpringApp{
 
     public static void main(String[] args) {
         // load the Spring configuration file
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("applicationContext.xml");
 
         WisdomWordsService wisdomWordsService = new WisdomWordsService();
 //        homeworkService homeworkService = new homeworkService();
