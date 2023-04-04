@@ -45,4 +45,9 @@ public class HomeController {
 		return "user";
 
 	}
+	@RequestMapping(value = "/about", method = RequestMethod.GET)
+	public String about(@Validated User user, Model model) {
+		System.out.println("My Page Requested");
+		return "about";
+	}
 }

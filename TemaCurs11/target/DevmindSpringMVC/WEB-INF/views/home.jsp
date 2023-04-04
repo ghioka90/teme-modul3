@@ -26,7 +26,7 @@
 		<input type="submit" value="Login">
 	</form>
 	<br>
-	<a href="about.jsp">About</a>
+	<a href="about">About</a>
 
 </body>
 </html>

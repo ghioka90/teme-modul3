@@ -20,7 +20,7 @@ Phone: 0749094934<br>
 Address: Bucharest<br>
 </P>
 <br>
-<img src="logo.png" alt="Devmind Logo">
+<img src="https://edu.devmind.ro/_media/wiki/logo.png" alt="Devmind Logo">
 
 
 </body>
