@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import java.math.BigInteger;
 
 @Service
-public class CaluclatorService {
+public class CalculatorService {
 
     public Integer sumIntegers(String first, String second) {
         return Integer.parseInt(first) + Integer.parseInt(second);
