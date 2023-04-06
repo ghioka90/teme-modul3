@@ -1,10 +1,10 @@
-package com.example.temacurs12;
+package com.example.temacurs13;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TemaCurs12ApplicationTests {
+class TemaCurs13ApplicationTests {
 
     @Test
     void contextLoads() {
