@@ -4,7 +4,7 @@ import lombok.Getter;
 
 @Getter
 public class MathEquation {
-   private int  firstNo;
-   private int secondNo;
-   private String operator;
+   private int  firstNumber;
+   private int secondNumber;
+   private String operation;
 }

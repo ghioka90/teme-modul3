@@ -8,6 +8,6 @@ import java.time.ZoneId;
 @Component
 public class TimeZoneService {
     public LocalDateTime getTimeByZone (String timeZone){
-        return LocalDateTime.now(ZoneId.of(timeZone));
+        return LocalDateTime.now(ZoneId.of(timeZone, ZoneId.SHORT_IDS));
     }
 }

@@ -1,6 +1,7 @@
 package com.example.temacurs13;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.annotation.Validated;
@@ -8,7 +9,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.text.DateFormat;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
+import java.util.List;
 import java.util.Locale;
 import java.util.TimeZone;
 
@@ -56,18 +60,45 @@ MathService mathOperation;
 		return "about";
 	}
 
-	@GetMapping(value = "//time?timeZone=UTC")
-	public LocalDateTime currentHour(@RequestParam(name = "timeZone") String timeZone){
-		return timeZoneServ.getTimeByZone(timeZone);
+//	@RequestMapping(value = "/time", method = RequestMethod.GET)
+//	public LocalDateTime currentHour(@RequestParam(name = "timeZone") String timeZone){
+//		return timeZoneServ.getTimeByZone(timeZone);
+//	}
+
+	@RequestMapping(value = "/time", method = RequestMethod.GET)
+	public ResponseEntity<CustomResponse> getTime(@RequestParam String timeZone) {
+		timeZone = timeZone.toUpperCase();
+		validateTimeZone(timeZone);
+		LocalDateTime dateTime = LocalDateTime.now(ZoneId.of(timeZone, ZoneId.SHORT_IDS));
+		String currentTime = DateTimeFormatter.ofPattern("HH:mm:ss").format(dateTime);
+		CustomResponse response = CustomResponse.builder()
+				.result(currentTime)
+				.build();
+
+		return ResponseEntity.ok().body(response);
 	}
 
-	@GetMapping(value="/harry-potter")
-	public String harryPotter() {
-		return harryPotterName.getName();
+	private void validateTimeZone(String timeZone) {
+		List<String> accepted = List.of("UTC", "CET", "EET", "GMT", "EAT");
+		if (!accepted.contains(timeZone)) {
+			throw new IllegalArgumentException("Timezone not supported");
+		}
 	}
 
-	@PostMapping(value="/math-service")
-	public String harryPotter(@RequestBody MathEquation equation) {
-		return "result: " + mathOperation.getResult(equation);
+	@RequestMapping(value="/harry-potter", method = RequestMethod.GET)
+	public ResponseEntity<CustomResponse> getHarryPotterCharacter() {
+		CustomResponse response = CustomResponse.builder()
+				.result(harryPotterName.getName())
+				.build();
+
+		return ResponseEntity.ok().body(response);
+	}
+	@RequestMapping(value="/math-service", method = RequestMethod.POST)
+	public ResponseEntity<CustomResponse> postMathCalculation(@RequestBody MathEquation mathEquation) {
+		CustomResponse response = CustomResponse.builder()
+				.result(String.valueOf(mathOperation.getResult(mathEquation)))
+				.build();
+
+		return ResponseEntity.ok().body(response);
 	}
 }
