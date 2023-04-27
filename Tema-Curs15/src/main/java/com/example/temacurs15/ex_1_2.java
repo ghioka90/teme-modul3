@@ -15,11 +15,19 @@ public class ex_1_2 {
         Course course1 = objMapper.readValue(new File("src/main/resouces/ex1.json"), Course.class);
 
 //      Ex.2
-        List<Course> listCourse = objMapper.readValue(
-                new File("src/main/resouces/ex2.json",
-                new TypeReference<List<Course>>(){}));
+        Course[] courses = objMapper.readValue(new File("ex2.json"), Course[].class);
+        for (Course course : courses) {
+            System.out.println(course.getCourseName());
+            System.out.println(course.getTrainer().getName());
+            System.out.println(course.isOnline());
+            for (CourseDay courseDay : course.getCourseDays()) {
+                System.out.println(courseDay.getDay());
+                System.out.println(courseDay.getStartingHour());
             }
         }
+    }
+}
+
 
 
 

@@ -1,7 +1,9 @@
 package com.example.temacurs15;
 
-import java.util.ArrayList;
+import lombok.Data;
 
+import java.util.ArrayList;
+@Data
 public class Course {
     public String courseName;
     public Trainer trainer;

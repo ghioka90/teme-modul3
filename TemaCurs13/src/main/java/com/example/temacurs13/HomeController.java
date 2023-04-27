@@ -14,7 +14,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
-import java.util.TimeZone;
 
 @Controller
 public class HomeController {
@@ -86,6 +85,10 @@ MathService mathOperation;
 	}
 
 	@RequestMapping(value="/harry-potter", method = RequestMethod.GET)
+	public String harryPotter (){
+		return harryPotterName.getName();
+	}
+	@RequestMapping(value="/harry-potter2", method = RequestMethod.GET)
 	public ResponseEntity<CustomResponse> getHarryPotterCharacter() {
 		CustomResponse response = CustomResponse.builder()
 				.result(harryPotterName.getName())
@@ -93,6 +96,7 @@ MathService mathOperation;
 
 		return ResponseEntity.ok().body(response);
 	}
+
 	@RequestMapping(value="/math-service", method = RequestMethod.POST)
 	public ResponseEntity<CustomResponse> postMathCalculation(@RequestBody MathEquation mathEquation) {
 		CustomResponse response = CustomResponse.builder()

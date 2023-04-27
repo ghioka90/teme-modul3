@@ -5,14 +5,9 @@
     "zoomId": 123321
   },
   "online": true,
-  "courseDays": [
+  "courseDays":
     {
       "day": "Monday",
       "startingHour": "18:20"
-    },
-    {
-      "day": "Wednesday",
-      "startingHour": "18:20"
     }
-  ]
 }
